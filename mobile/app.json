@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Vitórias",
+    "slug": "vitorias",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/brand/logo.png",
+    "scheme": "vitorias",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.vitorias.app",
+      "allowBackup": false,
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F2EE",
+        "foregroundImage": "./assets/images/brand/logo.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F7F2EE",
+          "image": "./assets/images/brand/logo.png",
+          "imageWidth": 200
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26,
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      [
+        "expo-sqlite",
+        {
+          "useSQLCipher": true
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "A localização é usada só no aparelho, para mostrar os serviços de apoio mais próximos."
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/poppins/700Bold/Poppins_700Bold.ttf",
+            "node_modules/@expo-google-fonts/poppins/500Medium/Poppins_500Medium.ttf",
+            "node_modules/@expo-google-fonts/public-sans/700Bold/PublicSans_700Bold.ttf",
+            "node_modules/@expo-google-fonts/public-sans/500Medium/PublicSans_500Medium.ttf",
+            "node_modules/@expo-google-fonts/itim/Itim_400Regular.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

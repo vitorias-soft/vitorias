@@ -1,0 +1,78 @@
+{
+  "version": "6013d1a4e3c38ae15fb7fafd354689282f99f155b2728dc8278e43444500062d",
+  "violenceTypes": [
+    {
+      "id": "d70641aa-4bb7-407e-9eb0-3acf4e664115",
+      "slug": "fisica",
+      "name": "Física",
+      "description": "Qualquer conduta que ofenda a integridade ou a saúde do corpo da mulher.",
+      "sortOrder": 0
+    },
+    {
+      "id": "8a66dad1-5006-4900-8467-1e43a6b7d52a",
+      "slug": "psicologica",
+      "name": "Psicológica",
+      "description": "Conduta que cause dano emocional ou diminua a autoestima, ou que busque controlar ações, comportamentos e decisões por meio de ameaça, humilhação, isolamento, perseguição ou chantagem, entre outras formas.",
+      "sortOrder": 1
+    },
+    {
+      "id": "59b2c61a-5940-448a-a7f7-b07f09f9b96d",
+      "slug": "patrimonial",
+      "name": "Patrimonial",
+      "description": "Conduta que configure retenção, subtração ou destruição de objetos, documentos, instrumentos de trabalho, bens, valores ou recursos econômicos da mulher.",
+      "sortOrder": 2
+    },
+    {
+      "id": "62060845-b364-4765-b478-887395e4050a",
+      "slug": "sexual",
+      "name": "Sexual",
+      "description": "Conduta que force a mulher a presenciar, manter ou participar de relação sexual não desejada, ou que limite seus direitos sexuais e reprodutivos, por meio de intimidação, ameaça, coação ou uso da força.",
+      "sortOrder": 3
+    },
+    {
+      "id": "c0ee89ad-1893-4d51-b56b-88acb80ee9bb",
+      "slug": "moral",
+      "name": "Moral",
+      "description": "Conduta que configure calúnia, difamação ou injúria contra a mulher.",
+      "sortOrder": 4
+    }
+  ],
+  "laws": [
+    {
+      "id": "163160e0-773b-4991-9187-6fb6ccbca468",
+      "popularName": "Lei Maria da Penha",
+      "number": "Lei nº 11.340/2006",
+      "summary": "Cria mecanismos para coibir a violência doméstica e familiar contra a mulher, prevê medidas protetivas de urgência, como o afastamento do agressor, e amplia o acesso a serviços de assistência.",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
+      "violenceTypeSlugs": [
+        "fisica",
+        "moral",
+        "patrimonial",
+        "psicologica",
+        "sexual"
+      ]
+    },
+    {
+      "id": "e467f4e4-b6f3-4793-aacf-4f91b5574424",
+      "popularName": "Lei do Feminicídio",
+      "number": "Lei nº 13.104/2015",
+      "summary": "Incluiu o feminicídio na legislação penal: a morte de uma mulher por violência doméstica e familiar ou por menosprezo ou discriminação à condição de mulher. Desde a Lei nº 14.994/2024, o feminicídio é crime autônomo no art. 121-A do Código Penal.",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13104.htm",
+      "violenceTypeSlugs": [
+        "fisica"
+      ]
+    },
+    {
+      "id": "e65181b6-2695-4e59-8da0-093c35a5d032",
+      "popularName": "Violência psicológica",
+      "number": "Lei nº 14.188/2021",
+      "summary": "Criou o crime de violência psicológica contra a mulher e o programa Sinal Vermelho contra a Violência Doméstica.",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14188.htm",
+      "violenceTypeSlugs": [
+        "psicologica"
+      ]
+    }
+  ],
+  "videos": [],
+  "supportServices": []
+}
